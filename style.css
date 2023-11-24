@@ -1,0 +1,74 @@
+bodY{
+	background-color: #d3d3d3;
+}
+
+#principal{
+	text-align: center;
+	align-items: center;
+	border: 1px solid red;
+	width: 30%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	padding-bottom: 2%;
+}
+
+h1{
+	text-align: center;
+	margin-top: 50px;
+	font-family: arial;
+	color: #4f4f4f;
+}
+
+#global{
+	width: 80%;
+	height: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+}
+
+#formulario{
+	width: 48%;
+	height: 300px;
+	float:left;
+	margin-top: 50px;
+
+}
+
+botton{
+	width: 70px;
+	background-color: #4f4f4f;
+	color: #d3d3d3;
+	margin-left: 20px;
+	margin-top: 15px;
+}
+
+#texto{
+	width: 48%;
+	height: auto;
+	float:hight;
+	margin-top: 100px;
+}
+
+h3{
+	margin-left: 20px;
+	margin-top: 50px;
+	font-family: arial;
+	color: #4f4f4f;
+}
+
+input{
+	width: 50%;
+	font-family: arial;
+	padding: 5px;
+	margin-left: 20px;
+}
+
+p{
+	padding: 30px;
+	text-align: justify;
+	font-size: 17px;
+	font-family: arial;
+	color: #4f4f4f;
+}

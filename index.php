@@ -10,16 +10,8 @@
 <body>
 
    <h1>IMC - Índice de Massa corpórea</h1>
+    <main id="principal">
 
-        <div id="global">
-            <div id="texto">
-                <p>
-                    Respeite o IMC ideal pra você e tenha uma melhor saúde!
-                </p>
-                
-            </div>
-
-            <div id="formulario">
                 <form action="index.php" method="get">
                     <br> <h3> altura</h3>
                     <input type="text" name="altura" placeholder="Ex:1.70" required>
@@ -30,6 +22,27 @@
                     <br><button type="submit">IMC</button>
 
                 </form>
+
+                
+        <div id="global">
+            <div id="texto">
+               <!-- <p>
+                    Respeite o IMC ideal pra você e tenha uma melhor saúde!
+                </p>-->
+                
+            </div>
+
+            <!--<div id="formulario">
+                <form action="index.php" method="get">
+                    <br> <h3> altura</h3>
+                    <input type="text" name="altura" placeholder="Ex:1.70" required>
+
+                    <br> <h3>Peso</h3>
+                    <input type="text" name="peso" placeholder="Ex:70" required>
+
+                    <br><button type="submit">IMC</button>
+
+                </form>-->
 
                 <?php 
                 
@@ -47,11 +60,11 @@
                    
 
                     if ($dividir < 18.5) {
-                        echo ("<br>MAGREZA");
+                        echo ("MAGREZA");
                     }
 
                     elseif ($dividir < 24.9){
-                        echo ("<br>NORMAL");
+                        echo ("NORMAL");
                     }
 
                     elseif ($dividir < 29.9){
@@ -75,6 +88,6 @@
 
             </div>
         </div>
-    
+    </main>
 </body>
 </html>
