@@ -20,19 +20,20 @@
                     <input type="text" name="peso" placeholder="Ex:70" required>
 
                     <br><button type="submit">IMC</button>
+                    <!--<button onclick="javascript:history.go(0)">&#x2B05;Voltar</button>-->
 
                 </form>
 
                 
-        <div id="global">
+        <!--<div id="global">
             <div id="texto">
-               <!-- <p>
+            !-- <p>
                     Respeite o IMC ideal pra você e tenha uma melhor saúde!
                 </p>-->
                 
-            </div>
+          <!--  </div>
 
-            <!--<div id="formulario">
+                <div id="formulario">
                 <form action="index.php" method="get">
                     <br> <h3> altura</h3>
                     <input type="text" name="altura" placeholder="Ex:1.70" required>
